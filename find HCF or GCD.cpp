@@ -18,3 +18,22 @@ int main(){
 	cout<<"HCF = "<<ans;;
 	return 0;
 }
+
+// ANOTHER METHOD :-
+//#include<iostream>
+//using namespace std;
+//
+//int gcd(int x,int y){
+//	int m=min(x,y);
+//	for(int i=m;i>0;i--){
+//		if(x%i==0 && y%i==0){
+//			return i;
+//		}
+//	}
+//}
+//
+//int main(){
+//	int oute=gcd(9,12);
+//	cout<<oute;
+//	return 0;
+//}
